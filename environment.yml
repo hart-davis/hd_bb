@@ -2,6 +2,7 @@ name: hd_bb
 channels:
     - conda-forge
     - defaults
+    - pip
 dependencies:
     - python=3.7    # Python version 3.7
     - basemap       # mapping package
@@ -32,3 +33,4 @@ dependencies:
     - numcodecs     # Compression library used by zarr
     - gcsfs         # Access data from Google Cloud Storage
     - s3fs          # Access data from Amazon S3
+    - plotly
