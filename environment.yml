@@ -2,7 +2,6 @@ name: hd_bb
 channels:
     - conda-forge
     - defaults
-    - pip
 dependencies:
     - python=3.7    # Python version 3.7
     - basemap       # mapping package
